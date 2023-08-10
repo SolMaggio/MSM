@@ -506,6 +506,7 @@ h4 {font-variant: small-caps;
 
 
 .bot {
+    margin: auto;
     display: flex;
     width: 13vw;
     position: relative;

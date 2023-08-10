@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="estilos.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>MSM</title>
+    <link rel="icon" href="./recursos/Logo_Mesa de trabajo 1_Mesa de trabajo 1.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap" rel="stylesheet">
@@ -56,16 +57,16 @@
             
 
            <div class="razon">
-                <figure class="imaRazon invisible">
-                    <img src="recursos/camion.png" alt="Fletes propios" data-bottom="opacity:0%; transition:0.5s ease all" data-center-top="opacity:100%">
+                <figure class="imaRazon">
+                    <img src="recursos/camion.png" data-aos="zoom-in" alt="Fletes propios" data-bottom="opacity:0%; transition:0.5s ease all" data-center-top="opacity:100%">
                 </figure>
                 <h2 class="sub-razones" data-center-top="color:midnightblue; transition: 0.5s ease all" data-center-bottom="color:red">Camiones propios</h2>
                 <P class="parrafo-bene">Contamos con múltiples camiones propios que nos permiten transportar tu mercadería. </P>
            </div>
 
            <div class="razon">
-                <figure class="imaRazon invisible" >
-                    <img src="recursos/caja.png" alt="Bienes resguardados" data-bottom="opacity:00%; transition:0.5s ease all" data-center-top="opacity:100%">
+                <figure class="imaRazon" >
+                    <img src="recursos/caja.png" data-aos="zoom-in" alt="Bienes resguardados" data-bottom="opacity:00%; transition:0.5s ease all" data-center-top="opacity:100%">
                 </figure>
                <h2 class="sub-razones" data-center-top="color:midnightblue; transition: 0.5s ease all" data-center-bottom="color:red">Bienes resguardados</h2>
                <p class="parrafo-bene">MSM protege tu mercadería con el sistema de seguridad "Security300". </p>
@@ -74,16 +75,16 @@
         <div class="hola">
 
            <div class="razon">
-                <figure class="imaRazon invisible">
-                    <img src="recursos/mapa.png" alt="Cobertura Nacional" data-bottom="opacity:00%; transition:0.5s ease all" data-center-top="opacity:100%">
+                <figure class="imaRazon">
+                    <img src="recursos/mapa.png" data-aos="zoom-in" alt="Cobertura Nacional" data-bottom="opacity:00%; transition:0.5s ease all" data-center-top="opacity:100%">
                 </figure>
               <h2 class="sub-razones" data-center-top="color:midnightblue; transition: 0.5s ease all" data-center-bottom="color:red">Cobertura Nacional</h2> 
               <p class="parrafo-bene">Transportamos tus cargas a cualquier punto del país.</p>
             </div>
 
             <div class="razon">
-                <figure class="imaRazon invisible">
-                    <img src="recursos/infra.png" alt="Gran Infraestructura" data-bottom="opacity:0%; transition:0.5s ease all" data-center-top="opacity:100%">
+                <figure class="imaRazon">
+                    <img src="recursos/infra.png" data-aos="zoom-in" alt="Gran Infraestructura" data-bottom="opacity:0%; transition:0.5s ease all" data-center-top="opacity:100%">
                 </figure>
                 <h2 class="sub-razones" data-center-top="color:midnightblue; transition: 0.5s ease all" data-center-bottom="color:red">Gran Infraestructura</h2>
                 <p class="parrafo-bene">MSM cuenta con un depósito de 1800m² donde almacenamos la mercaderia antes de su viaje.  </p>
@@ -113,9 +114,10 @@
         </div>
     </section>
 
-    <section id="sec-frase">
-        <div id="cont-frase">
-        <h2 id="frase" data-center="color:white;" data-center-bottom="color:royalblue;" data-top="color:midnightblue">Llevamos tu carga
+    <section id="sec-frase" style="display: flex;
+    align-items: center;">
+        <div id="cont-frase " data-aos="flip-up">
+        <h2 id="frase" >Llevamos tu carga
             <br> a cualquier parte del país</h2>
         </div>
     </section>
@@ -128,16 +130,16 @@
             <div class="pasos">
                 <picture class="step" data--100-bottom="opacity:0; transition:1s ease all" data-top="opacity:100%">
                     
-                    <img src="recursos/1.png" alt="uno" class="step">
+                    <img src="recursos/1.png" alt="uno" data-aos="flip-up" class="step">
                 </picture>
                 <h2 class="subtitulo-pasos" data-center-top="color:midnightblue; transition: 0.5s ease all" data-center-bottom="color:red">Registrate</h2>
             </div>
 
             <div class="pasos">
-                
-                    <img src="recursos/2.png" alt="dos">
-                </picture>
-                <h2 class="subtitulo-pasos" data-center-top="color:midnightblue; transition: 0.5s ease all" data-center-bottom="color:red">
+                <picture >
+                    <img src="recursos/2.png" data-aos="flip-up" alt="dos">
+                </picture >
+                <h2 class="subtitulo-pasos">
                     Cotizá
                 </h2>
             </div>
@@ -145,7 +147,7 @@
             <div class="pasos">
                 
                 
-                    <img src="recursos/3-03.png" alt="tres">
+                    <img src="recursos/3-03.png" data-aos="flip-up" alt="tres">
                 </picture>
                 <h2 class="subtitulo-pasos" data-center-top="color:midnightblue; transition: 0.5s ease all" data-center-bottom="color:red">
                     ¡y MSM lo envía!
@@ -303,7 +305,7 @@
                 <input type="text" id="comentario" placeholder="Escriba un comentario" class="form">  
             </div>
 
-            <input type="submit" value="Enviar" class="bot">
+            <input type="submit" value="Enviar" class="bot" style="margin: auto;;margin-top: 3em; margin-bottom: 2em;">
 
         </form>
         
@@ -366,7 +368,10 @@
     </footer>
 
 <script src="bootstrap.js"></script>
-<script src="js.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 
 </body>
